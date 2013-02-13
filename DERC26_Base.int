@@ -1,0 +1,36 @@
+[TheWorld:PersistentLevel.Main_Sequence.PecanSeqAct_SetObjective_1 PecanSeqAct_SetObjective]
+MessageText=""
+
+[TheWorld:PersistentLevel.Main_Sequence.PecanSeqAct_SetObjective_3 PecanSeqAct_SetObjective]
+MessageText=""
+
+[TheWorld:PersistentLevel.Main_Sequence.PecanSeqAct_SetObjective_6 PecanSeqAct_SetObjective]
+MessageText=""
+
+[TheWorld:PersistentLevel.Main_Sequence.PecanSeqAct_SetObjective_8 PecanSeqAct_SetObjective]
+MessageText=""
+
+[TheWorld:PersistentLevel.PecanHudMarker_0 PecanHudMarker]
+MarkerText="Captured Marine"
+
+[TheWorld:PersistentLevel.PecanHudMarker_1 PecanHudMarker]
+MarkerText="Elevator"
+
+[TheWorld:PersistentLevel.PecanHudMarker_3 PecanHudMarker]
+MarkerText="Captured Marine"
+
+[TheWorld:PersistentLevel.PecanHudMarker_4 PecanHudMarker]
+MarkerText="Captured Marine"
+
+[TheWorld:PersistentLevel.PecanHudMarker_6 PecanHudMarker]
+MarkerText="Elevator"
+
+[TheWorld:PersistentLevel.PecanHudMarker_7 PecanHudMarker]
+MarkerText="Captured Marine"
+
+[TheWorld:PersistentLevel.PecanPickupAudioLog_2 PecanPickupAudioLog]
+ContextString=""
+
+[TheWorld:PersistentLevel.PecanPickupAudioLog_3 PecanPickupAudioLog]
+ContextString=""
+
