@@ -1,0 +1,1419 @@
+[PecanSentryTurret]
+ContextString=%key% %icon% %weapon%
+
+[PecanPickupWeapon]
+ContextString=%key% %icon% %weapon%
+
+[PecanPickupAmmo]
+ContextString=%key% %icon% %ammotype%
+
+[PecanPickupArmor]
+ContextString=%key% Pickup %icon%
+
+[PecanPickupCurrency]
+ContextString=
+
+[PecanPickupHealing]
+ContextString=%key% Pickup %icon%
+
+[PecanPickupDefinitionHealing]
+PickupMessage=+%Icon%
+
+[AmmoCrate]
+PickupMessage=+%Amount%%Icon%
+FullAmmoMessage="Ammo Full"
+
+[PecanSupplyRack]
+SupplyRackCSD="Press %key% to Customize Loadouts"
+
+[PecanPickupDefinitionAmmo]
+PickupMessage=+%Amount%%Icon%
+
+[PecanPickupDefinitionCurrency]
+PickupMessage=+%Icon%%Amount%
+
+[PecanPickupDefinitionArmor]
+PickupMessage=+%Icon%
+
+[PecanPickupCharacterType]
+ContextString=%key% %icon%
+
+[PecanPawnPowerLoaderDefinition]
+ContextStringForEntering=Press %key% to Mount Powerloader
+
+[PecanVentTransitionVolume]
+ContextString=%key% Enter Vent
+
+[PecanGameGlobalsDefinition]
+CurrencyFormat=%ICON%%AMOUNT%
+
+[PecanChallengesGlobalsDefinition]
+FullDescription=%name%\n\n%description%\n\nREWARD: %reward%
+FullRewardLine=%reward%\n
+ExperienceGained=+%exp% XP
+RewardString=REWARDS
+CompletedString=COMPLETED
+ActiveString=ACTIVE
+
+[PecanProfileSettings]
+ProfileMappings[0]=(ValueMappings=((Name="Off"),(Name="On")))
+ProfileMappings[1]=(ValueMappings=((Name="Off"),(Name="On")))
+ProfileMappings[2]=(ValueMappings=((Name="Off"),(Name="On")))
+ProfileMappings[4]=(ValueMappings=((Name="Off"),(Name="On")))
+ProfileMappings[5]=(ValueMappings=((Name="Off"),(Name="On")))
+ProfileMappings[66]=(ValueMappings=((Name="Hold"),(Name="Toggle")))
+ProfileMappings[67]=(ValueMappings=((Name="Hold"),(Name="Toggle")))
+ProfileMappings[68]=(ValueMappings=((Name="Hold"),(Name="Toggle")))
+; dmr103012: Xeno Wall Climb - changed "Toggle" to "Transition" as it's more accurate
+ProfileMappings[69]=(ValueMappings=((Name="Hold"),(Name="Transition")))
+ProfileMappings[70]=(ValueMappings=((Name="Hold"),(Name="Toggle")))
+ProfileMappings[71]=(ValueMappings=((Name="Hold"),(Name="Toggle")))
+ProfileMappings[92]=(ValueMappings=((Name="Off"),(Name="On")))
+ProfileMappings[102]=(ValueMappings=((Name="Hold"),(Name="Toggle")))
+ProfileMappings[103]=(ValueMappings=((Name="Disable"),(Name="Enable")))
+
+[PecanOnlineGameSettings]
+LocalizedSettingsMappings[0]=(ValueMappings=((Name="Local"),(Name="LAN"),(Name="Online")))
+LocalizedSettingsMappings[1]=(ValueMappings=((Name="Public"),(Name="Friends-Only"),(Name="Private")))
+
+[PecanOnlineGameSettingsGame]
+LocalizedSettingsMappings[3]=(ValueMappings=((Name="Recruit"),(Name="Soldier"),(Name="Hardened"),(Name="Ultimate Badass")))
+
+[Terms]
+Controller_PS3=Controller
+Controller_360=Xbox 360 Controller
+
+[PecanUICPlayerResearch]
+ResearchFormat=Research: %RESEARCH
+
+[PecanUICPlayerShares]
+SharesFormat=Shares: %SHARES
+
+[PecanUICPlayerSummaryPanel]
+TotalCurrency=%amount% %icon%
+CurrentXP=%current% / %next%
+CurrentXPFE=%current% / %next% XP
+GainedXP=+%amount% XP
+MaxXP=%amount% XP
+NextRankFormat=Next Rank: %rank%
+
+[UIScreenFEMain]
+TitleMain=MAIN
+TitleMultiplayer=VERSUS
+TitleCampaign=CAMPAIGN
+TitleCampaignDifficulty=Difficulty
+Campaign=_CAMPAIGN
+CampaignTooltip=Play the Campaign as a Colonial Marine
+MultiplayerGame=_VERSUS
+MultiplayerGameTooltip=Join up with other Colonial Marines or eradicate them as a Xenomorph
+ServiceRecord=_SERVICE RECORD
+ServiceRecordTooltip=View Special Projects, Records, Challenges, and Achievements
+ServiceRecordTooltip_PS3=View Special Projects, Records, and Challenges
+Settings=_SETTINGS
+SettingsTooltip=Change game settings
+Extras=_EXTRAS
+ExtrasTitle=EXTRAS
+ExtrasTooltip=Redeem Shift Codes, or watch the Credits
+ExtrasTooltip_360=Redeem Shift Codes, or watch the Credits
+ExtrasTooltip_PS3=Redeem Shift Codes, or watch the Credits
+Credits=_CREDITS
+CreditsTooltip=View Developer Credits
+DLC=_DOWNLOADABLE CONTENT
+DLC_PS3=_DOWNLOADABLE CONTENT
+DLC_360=_DOWNLOADABLE CONTENT
+DLCTooltip=Check for available Downloadable Content
+DLCTooltip_PS3=Check for available Downloadable Content
+DLCTooltip_360=Check for available Downloadable Content
+SystemLink=_LAN
+SystemLink_360=_SYSTEM LINK
+SystemLinkTooltip=Play a game on the local area network
+SystemLinkTooltip_360=Play a game via System Link
+UnlockCode=_ENTER UNLOCK CODE
+UnlockCodeTooltip=Enter codes to unlock special equipment
+Quit=_QUIT
+QuitTooltip=Exit the game
+QuitConfirmation=Game over, man?
+TitleLoadouts=LOADOUTS
+TitleAppearance=APPEARANCE
+LoadoutsCustomization=CUSTOMIZATION
+Appearance=_EDIT APPEARANCE
+AppearanceTooltip=Customize Colonial Marine and Xenomorph Appearances
+Loadouts=_EDIT LOADOUTS
+LoadoutsTooltip=Customize Colonial Marine and Xenomorph Loadouts
+MarineLoadouts=_MARINE LOADOUTS
+MarineLoadoutsTooltip=Select Weapons and Traits to take into battle
+MarineAppearance=_MARINE APPEARANCE
+MarineAppearanceTooltip=Customize your Colonial Marine's Appearance and Features in multiplayer
+XenoLoadouts=_XENO LOADOUTS
+XenoLoadoutsTooltip=Select from available abilities for multiplayer Xenomorph classes
+XenoAppearance=_XENO APPEARANCE
+XenoAppearanceTooltip=Modify appearance for multiplayer Xenomorph classes
+Upgrades=_ARSENAL UPGRADES
+UpgradesTooltip=Customize your weapons with attachments and custom paint jobs
+NewSolo=_NEW CAMPAIGN
+NewSoloTooltip=Start a new Campaign
+MissionSelect=_MISSION SELECT
+MissionSelectTooltip=Select an available Campaign mission to play
+Resume=_RESUME CAMPAIGN
+ResumeTooltip=Continue the current Campaign
+NewCoop=_COOP CAMPAIGN
+NewCoopTooltip=Start a coop Campaign game
+ShiftCode=_SHIFT CODE
+ShiftCodeTooltip=Access your Gearbox Shift Account to enter Unlock Codes and more
+FiringRange=_FIRING RANGE
+FiringRangeTooltip=Hone your skills in the USMC firing range aboard the USS Sephora
+DifficultyTooltip=Select the Campaign difficulty level
+CampaignCoop=MULTIPLAYER
+MOTDHint=More News Info
+CampaignDLC=_CAMPAIGN DLC
+CampaignDLCTooltip=PLACEHOLDER TEXT, PLEASE REPLACE
+
+[UIScreenFESettingsGamma]
+TitleBrightness=BRIGHTNESS
+Instructions=Please adjust brightness until the insignia is just slightly visible.
+
+[PecanUIScreenFESettingsVideo]
+BrightnessLabel=_BRIGHTNESS
+BrightnessTooltip=Adjust the game's gamma level
+SubtitlesLabel=_SUBTITLES
+SubtitlesTooltip=Toggle subtitles for important dialog
+ResolutionLabel=_RESOLUTION
+ResolutionTooltip=Set the resolution at which the game displays
+VSyncLabel=_V-SYNC
+VSyncTooltip=Toggle graphics card framerate limit to prevent visual flaws caused by slower screen refresh
+WindowModeLabel=_WINDOW MODE
+WindowModeLabelTooltip=Set the appearance and behavior of the game window
+WindowMode0Label=FULLSCREEN
+WindowMode1Label=WINDOW
+WindowMode2Label=FULL WINDOW
+TextureDetailLabel=_TEXTURE DETAIL
+TextureDetailTooltip=Lower to reduce texture detail and improve performance
+WorldDetailLabel=_WORLD DETAIL
+WorldDetailTooltip=Lower to reduce world detail and improve performance
+ShadowDetailLabel=_SHADOW DETAIL
+ShadowDetailTooltip=Lower to reduce shadow detail and improve performance
+FXAALabel=_FXAA
+FXAATooltip=Toggle FXAA edge smoothing, disable to improve performance
+FOVLabel=_FIELD OF VIEW
+FOVTooltip=Expand field of view to see more of the game world
+
+[PecanUIScreenFESettingsAudio]
+MasterVolumeLabel=_MASTER VOLUME
+MasterVolumeTooltip=Adjust volume for all audio
+MusicVolumeLabel=_MUSIC VOLUME
+MusicVolumeTooltip=Adjust volume for music
+SFXLabel=_SOUND EFFECT VOLUME
+SFXTooltip=Adjust volume for sound effects
+VoiceVolumeLabel=_DIALOG VOLUME
+VoiceVolumeTooltip=Adjust volume for squad call outs
+VoiceVOIPInboundLabel=_PLAYER CHAT VOLUME
+VoiceVOIPInboundLabel_PS3=_PLAYER CHAT VOLUME
+VoiceVOIPInboundLabel_360=_PLAYER CHAT VOLUME
+VoiceVOIPInboundTooltip=Adjust volume for voice chat
+MutePlayersLabel=_MUTE PLAYERS
+MutePlayersTooltip=Toggle muting all incoming voice chat
+PushToTalkLabel=_PUSH TO TALK
+PushToTalkTooltip=Toggle voice chat push to talk functionality
+
+[PecanUIScreenFESettingsControl]
+360MarineControllerLabel=_MARINE CONTROLLER
+360MarineControllerLabel_360=_XBOX 360 MARINE CONTROL SCHEMES
+360XenoControllerLabel=_XENO CONTROLLER
+360XenoControllerLabel_360=_XBOX 360 XENO CONTROL SCHEMES
+360ControllerTooltip=Select a new preset or create a custom control scheme
+MarineControllerLabel=_MARINE CONTROLLER
+XenoControllerLabel=_XENO CONTROLLER
+ControllerTooltip=Select the control scheme used while playing
+InvertYLabel=_INVERT Y AXIS
+InvertYTooltip=Invert vertical aim control
+MouseSmoothingLabel=_MOUSE SMOOTHING
+MouseSmoothingTooltip=Toggle Smooth movement for onscreen aiming
+ZoomActionLabel=_ZOOM
+ZoomActionTooltip=Change weapon zoom mode
+SprintActionLabel=_SPRINT
+SprintActionTooltip=Change sprint mode
+CrouchActionLabel=_CROUCH
+CrouchActionTooltip=Change crouch mode
+WallClimbLabel=_XENO WALL CLIMB
+WallClimbTooltip=Change xeno wall climb mode
+ScoreboardLabel=_SCOREBOARD
+ScoreboardTooltip=Change scoreboard mode
+RadialMenuLabel=_RADIAL MENU
+RadialMenuTooltip=Change radial menu mode
+ControllerSensitivityLabel=_SENSITIVITY
+ControllerSensitivityTooltip=Adjust aiming sensitivity
+ControllerVibrationLabel=_VIBRATION
+ControllerVibrationTooltip=Toggle controller vibration
+ControllerVibrationTooltip_360=Toggle Xbox 360 controller vibration
+TutorialLabel=_TUTORIALS
+TutorialTooltip=Toggle context sensitive tutorials on the HUD
+ResetTutorialLabel=_RESET TUTORIAL
+ResetTutorialTooltip=Reset all context sensitive tutorials
+MarineControlBindingLabel=_MARINE KEYBOARD
+MarineControlBindingTooltip=Customize Marine keyboard bindings
+XenoControlBindingLabel=_XENO KEYBOARD
+XenoControlBindingTooltip=Customize Xeno keyboard bindings
+MotionTrackerAlertsLabel=_MOTION TRACKER ALERTS
+MotionTrackerAlertsTooltip=Toggle visual alerts from the Motion Tracker when it is not actively in use
+ToggleWalkingLabel=_WALK
+ToggleWalkingTooltip=Change Walking mode
+ToggleControllerLabel=_CONTROLLER
+ToggleControllerTooltip=Enable or Disable controller
+
+[PecanUIScreenFESettingsController]
+AnalogStickSchemeLabel=_LEFT & RIGHT STICKS
+AnalogStickSchemeLabel_PS3=_LEFT & RIGHT STICKS
+AnalogStickSchemeLabel_360=_LEFT & RIGHT STICKS
+AnalogStickSchemeTooltip=Select your input scheme for the left stick and right stick
+AnalogStickSchemeTooltip_PS3=Select your input scheme for the left stick and right stick
+AnalogStickSchemeTooltip_360=Select your input scheme for the left stick and right stick
+ButtonSchemeLabel=_BUTTON SCHEME
+ButtonSchemeTooltip=Select your input scheme for your buttons
+CustomizeLabel=_CUSTOMIZE
+CustomizeTooltip=Customize your control scheme
+UnassignedKey=UNBOUND
+
+[PecanUIScreenFESettingsBindingBase]
+UnboundCommandMessage=The following action is unbound: \n %unboundstring%
+UnboundCommandsMessage=The following actions are unbound: \n %unboundstring%
+
+[PecanUIScreenFESettingsControllerCustomize]
+SelectActionTooltip=Select an Action to Bind
+BindMessage=Press the button you want to bind to this action
+
+[PecanUIScreenFESettingsPCKeybinds]
+TitleMarine=PC KEYBINDS [MARINE]
+TitleXeno=PC KEYBINDS [XENO]
+SelectActionTooltip=Press Enter to change this binding
+BindMessage=Press the key you want to bind to this action
+
+[PecanUIScreenFELobby]
+StartGame=_START GAME
+StartGameTooltip=Start the game
+Mission=_MISSION
+MissionTooltip=Select a map
+Difficulty=_DIFFICULTY
+DifficultyTooltip=Select difficulty
+CreateGame=_CREATE GAME
+TitleLobby=%GAMEMODE LOBBY
+ChallengesHeader=CHALLENGE PROGRESS
+ChallengesTooltip=Available Challenges on which to progress
+JMAny=Auto
+JMJoin=Join Existing
+JMCreate=Create New
+NMOnline=Online
+NMOnline_360=Xbox LIVE
+NMLAN=LAN
+NMLAN_360=System Link
+NMLocal=Offline
+NMPrivate_PC=Friends-Only
+NMPrivate=Private
+NoMatchFoundText=Failed to find a suitable match. Please try again later or use less restrictive parameters.
+CreatingGameText=Creating Game...
+LabelAnyMap=Random
+LobbyLeaveDisallowed=You may not leave the lobby at this time
+WaitingForHost=_WAITING FOR HOST...
+WaitingForHostTooltip=Waiting for the host to start the game
+FingingPlayers=_FINDING PLAYERS...
+FindingPlayersTooltip=Searching for more players before starting the game
+StartingIn=_STARTING IN...
+StartinInTooltip=The game is starting shortly
+NextGame=_NEXT GAME IN...
+NextGameTooltip=The next game can be started shortly
+
+[PecanUIScreenFESearch]
+SelectMissionTooltip=Select a map
+SelectDifficulty=_DIFFICULTY
+SelectDifficultyTooltip=Select difficulty
+SelectAdvanced=_ADVANCED
+SelectAdvancedTooltip=Adjust network and matchmaking settings
+FindGame=_FIND GAME
+FindGameTooltip=Search for games using the selected options
+CancelMatchmaking=_CANCEL MATCHMAKING
+CancelMatchmakingTooltip=Cancel game searching
+CreateGame=_CREATE GAME
+CreateGameTooltip=Create game using the selected options
+GameMode=_GAME MODE
+JoinMode=_JOIN MODE
+NetworkMode=_NETWORK MODE
+CurrencyFormat=%ICON%%AMOUNT%
+TitleSearch=%GAMEMODE GAME
+TitleAdvanced=ADVANCED OPTIONS
+GameModeTooltip=Select a game mode
+JoinModeTooltip=Select whether to join an existing match or create a new one
+JoinAnyTooltip=Automatically join an existing match or create a new one
+JoinJoinTooltip=Only join existing matches
+JoinCreateTooltip=Create a new match
+NetworkModeTooltip=Select a network mode
+OnlineTooltip=Online games require an internet connection and are open to the public
+LanTooltip=LAN games can be played with others within your network
+LanTooltip_360=System Link games can be played with others within your network
+LocalTooltip=Offline games can only be played with local users
+PrivateTooltip=Private games can only be joined with an invite
+PrivateTooltip_PC=Private games can only be joined by your friends or with an invite
+LabelAnyMap=Random
+LabelAnyDifficulty=Any
+WaitingForPartyLeader=_WAITING FOR HOST...
+WaitingForPartyLeaderTooltip=Waiting for the party leader to start matchmaking
+FingingPlayers=_FINDING PLAYERS...
+FindingPlayersTooltip=Searching for more players before starting the game
+
+[UIScreenFEMatchmaking]
+ActiveChallenges=ACTIVE CHALLENGES
+
+[PecanUIScreenFELobbyAdvanced]
+Title=//ADVANCED
+GameMode=_GAME MODE
+JoinMode=_JOIN MODE
+NetworkMode=_NETWORK MODE
+
+[PecanUIScreenFECampaignNew]
+Title=New Campaign
+LabelStartGame=_START
+LabelSelectMap=_MAP
+LabelSelectDifficulty=_DIFFICULTY
+
+[PecanUIScreenFEMain]
+CheckpointClobberConfirmMessage=Starting a new mission will clear existing checkpoint progress. Continue?
+UnlockCodeMessage=Enter an Unlock Code
+UnlockCodeTitle=Enter Unlock Code
+PartyHostStatusMessage=You are the party leader. Play online with your party through the campaign or versus menus
+PartyClientStatusMessage=Waiting for the party leader (%PartyHost%) to enter into matchmaking
+
+[PecanGameInfoCampaign]
+GameName=CAMPAIGN
+Tooltip=Play the Campaign with up to four Colonial Marines.
+
+[PecanGameInfoTDM]
+GameName=TEAM DEATHMATCH
+Tooltip=Battle against Xenomorphs in this kill-based game mode.
+
+[PecanGameInfoHunt]
+GameName=EGG HUNT
+Tooltip=
+
+[PecanGameInfoEscape]
+GameName=ESCAPE
+Tooltip=Escape through Xenomorph infested territory in this 4-on-4 game mode.
+
+[PecanGameInfoSurvivor]
+GameName=SURVIVOR
+Tooltip=Survive an unrelenting Xenomorph attack in this 4-on-4 game mode.
+
+[PecanGameInfoBomb]
+GameName=NUKE
+Tooltip=
+
+[PecanGameInfoCapture]
+GameName=EXTERMINATION
+Tooltip=Arm explosives to wipe out Xenomorph egg clusters in this 5-on-5 game mode.
+XenoScoreLabelName=-
+
+[PecanGameInfoFiringRange]
+GameName=FIRING RANGE
+Tooltip=A designer should probably replace this text.
+
+[HintBarStrings]
+Select=Select
+Accept=Accept
+AcceptTooltip=Confirm changes to the settings
+Defaults=Defaults
+DefaultsTooltip=Return all settings to their default values
+Friends=Friends
+Friends_PS3=Accept Invites
+FriendsTooltip=Invite friends to join the fight
+FriendsTooltip_PS3=Accept an invite to join a friend
+FriendsInvite_PS3=Invite Friends
+FriendsInviteTooltip_PS3=Invite friends to join the fight
+Party_360=Manage Xbox LIVE Party
+PartyInvite_360=Invite Xbox LIVE Party
+PartyTooltip_360=Invite friends to an Xbox Live Party
+ChangeTeams=Change Teams
+ChangeTeamsTooltip=Switch between USCM and Xenomorph factions
+Lobby=Lobby
+LobbyTooltip=Return to the Lobby
+NextMission=Next Mission
+NextMissionTooltip=Start the next Campaign mission
+Scoreboard=Scores
+ScoreboardTooltip=View the scoreboard from the previous round
+Clear=Clear
+ClearTooltip=Clear the currently selected binding
+Cancel=Cancel
+CancelTooltip=Cancel the selection of the current bind
+Skip=Skip
+SkipTooltip=Skip game summary
+PrivacySettings=Party Privacy
+PrivacySettingsTooltip=Adjust your party's privacy settings
+GamerCard=Steam Profile
+GamerCardTooltip=View Steam profile
+GamerCard_360=Gamer Card
+GamerCardTooltip_360=View Gamer Card
+GamerCard_PS3=Profile
+GamerCardTooltip_PS3=View PSN Profile
+FindGame=Find Game
+FindGameTooltip=Search for a game
+StartGame=Start Game
+StartGameTooltip=Start the game
+CreateGame=Create Game
+CreateGameTooltip=Create the lobby
+LeaveGame=Leave Game
+LeaveGameTooltip=Leave the current game
+Advanced=Advanced Options
+AdvancedTooltip=Configure advanced game options
+Loadouts=Edit Loadouts
+LoadoutsTooltip=Customize Marine or Xeno Loadouts
+Upgrades=Edit Upgrades
+UpgradesTooltip=Adjust weapon attachments
+AudioLog=Play Audio Log
+AudioLogTooltip=Listen to previously discovered audio logs
+Share=Share
+ShareTooltip=Share on Facebook
+
+[UIScreenFEBarracks]
+TitleBarracks=SERVICE RECORD
+Challenges=_CHALLENGES
+ChallengesTooltip=View career Challenge progression
+Records=_RECORDS
+RecordsTooltip=View career Records for each game mode
+SpecialProjects=_SPECIAL PROJECTS
+SpecialProjectsTooltip=View Special Projects collected throughout the Campaign
+Achievements=_ACHIEVEMENTS
+AchievementsTooltip=View career Achievements
+Achievements_PS3=TROPHIES
+AchievementsTooltip_PS3=View career Trophies
+AchievementsWarning=Achievements could not be viewed from this profile.
+AchievementsWarning_PS3=Trophies could not be viewed from this profile.
+
+[UIScreenFERecords]
+FilterRecordsLabel=%GAMEMODE% RECORDS
+DifficultyLabel=Difficulty: %VALUE%
+BestTimeLabel=Best Time: %VALUE%
+MostKillsLabel=Most Kills: %VALUE%
+BestKDRLabel=Best KDR: %VALUE%
+BestEscapeLabel=Best Escape: %VALUE%
+FastestGenocideLabel=Fastest Genocide: %VALUE%
+EggsDestroyedLabel=Eggs Destroyed: %VALUE%
+SurvivalTimeLabel=Survival Time: %VALUE%
+CapturesLabel=Captures: %VALUE%
+DefenseLabel=Defends: %VALUE%
+
+[UIScreenFESpecialProjects]
+Reward=REWARD
+DogTagTitle=DOG TAGS
+SpecialProjectsTitle=SPECIAL PROJECTS
+LegendaryWeaponTitle=WEAPONS
+AudioLogTitle=AUDIO LOGS
+NotCollected=MISSING SPECIAL PROJECT \n\n Discover special projects hidden in campaign missions
+ProjectsFound=%found%/%total% Found
+AudioLogTutorial=FOUND AUDIO LOG \n\n Select to Play Content
+
+[UIScreenFELoadouts]
+TitleLoadouts=LOADOUTS
+TitleUpgrades=UPGRADES
+HintUpgrades=Customize
+TitleAppearance=APPEARANCE
+TitleCustomize=Customize Appearance
+HintSelect=Select
+HintEquip=Equip
+HintSelectLoadout=Select %loadout%
+Available=Available:
+
+[UIScreenFELoadoutStats]
+StatFirepower=Firepower
+StatAccuracy=Accuracy
+StatRateOfFire=Rate of Fire
+StatFireMode=Fire Mode
+StatClipSize=Clip Size
+StatReloadTime=Reload Time
+StatDamage=Damage
+StatHealth=Health
+StatSpeed=Speed
+StatMobility=Mobility
+StatRange=Range
+ReloadTimeLabel=%AMOUNT% s
+
+[PecanUIScreenFELoadouts]
+PurchaseConfirmMessage=Purchase this upgrade for %COST%?
+InsufficientCurrencyMessage=Insufficient funds to purchase this upgrade.
+SemiAutomaticFireLabel=Semi-Automatic
+AutomaticFireLabel=Automatic
+BurstFireLabel=Burst
+
+[PecanUIScreenFESettings]
+SaveSettingsMessage=Would you like to apply these settings?
+DefaultSettingsMessage=Are you sure you want to reset your settings to defaults?
+ResetTutorialsMessage=Are you sure you want to reset the context sensitive tutorials?
+
+[PecanUIScreenFESettingsVideo]
+ConfirmAcceptSettingsMessage=Would you like to keep these settings?  Old settings will be restored in {timeout} seconds.
+
+[UIScreenFESettingsHub]
+TitleSettings=SETTINGS
+TitleVideo=VIDEO
+TitleAudio=AUDIO
+TitleControls=CONTROLS
+VideoSettings=_VIDEO
+VideoSettingsTooltip=Adjust Video options
+AudioSettings=_AUDIO
+AudioSettingsTooltip=Adjust Audio options
+ControlSettings=_CONTROLS
+ControlSettingsTooltip=Adjust Control options
+ControllerSettingsMarine=CONTROLLER [MARINE]
+ControllerSettingsXeno=CONTROLLER [XENO]
+ControllerSettingsCustomizeMarine=CONTROLLER BINDINGS [MARINE]
+ControllerSettingsCustomizeXeno=CONTROLLER BINDINGS [XENO]
+ControlBindings=CONTROL BINDINGS
+
+[UIScreenGUMenu]
+GamePaused=[ GAME PAUSED ]
+ResumeGame=_RESUME GAME
+ResumeGameTooltip=Return to the game in progress
+RestartLastCheckpoint=_RESTART CHECKPOINT
+RestartLastCheckpointTooltip=Return to the last mission checkpoint
+RestartLastCheckpointTooltipDisabled=Only the host can restart last checkpoint
+RestartLastCheckpointConfirmation=Any unsaved progress will be lost, continue?
+RestartMission=_RESTART MISSION
+RestartMissionTooltip=Return to the beginning of the mission
+RestartMissionTooltipDisabled=Only the host can restart the mission
+RestartMissionConfirmation=Any unsaved progress will be lost, continue?
+SwitchTeam=_SWITCH TEAM
+SwitchTeamTooltip=Switch current team
+CheatMenu=_CHEAT MENU
+CheatMenuTooltip=Opens the cheat/debug menu!
+Suicide=_SUICIDE
+SuicideTooltip=End current life
+Settings=_SETTINGS
+SettingsTooltip=Adjust game settings
+ExitGame=_EXIT GAME
+ExitGameTooltip=Leave current game and return to the Main Menu
+GameMenuTitle=Game Menu
+Upgrades=_ARSENAL UPGRADES
+UpgradesTooltip=Select and customize your arsenal
+
+[UIScreenGUCharacters]
+OpenLoadoutScreenConfirmation=Continuing will Pause game for both Players. Continue?
+CustomizeButtonText=%VALUE%CUSTOMIZE
+
+[PecanUIScreenGUScoreboard]
+Scores=SCORES
+COOPMissionName=%shortname%: %longname%
+VERSESMissionName=%longname%
+VERSESRounds=Round %gamenum%
+VERSESMatches=Match %gamenum%
+VERSESIntermissionRounds=Round %gamenum% Over
+VERSESIntermissionMatches=Match %gamenum% Over
+VERSESFinal=Final
+DogTags=%current%/%max% Dog Tags Found: %icons%
+AudioLogs=%current%/%max% Audio Logs Found: %icons%
+CurrentObjective=%objective%
+LegendaryWeapon=%current%/%max% Legendary Weapon Found: %name%
+CurrentObjectiveLabel=OBJECTIVE
+PickupsLabel=SPECIAL PROJECTS
+
+[PecanUIScreenGUSummary]
+Summary=SUMMARY
+COOPMissionName=%shortname%: %longname%
+VERSESMissionName=%longname%
+VERSESRounds=%minutes%:%seconds% Rounds
+DogTags=%current%/%max% Dog Tags Found: %icons%
+AudioLogs=%current%/%max% Audio Logs Found: %icons%
+MissionComplete=MISSION COMPLETE!
+NewRecord=NEW RECORD!
+NewUnlock=NEW UNLOCK!
+Victory=%gamemode% VICTORY!
+Defeat=%gamemode% DEFEAT!
+Tied=%gamemode% TIED!
+ChallengeComplete=CHALLENGE COMPLETE!
+LegendaryWeapon=%current%/%max% Legendary Weapon Found: %name%
+CurrencyGained=+ %amount%
+
+[PecanUICTeamInfoPanel]
+TitleFriendlyTeam=YOUR TEAM
+TitleEnemyTeam=ENEMY TEAM
+StatusWinning=W
+StatusLosing=L
+StatusTied=Tied
+StatusVictory=Victory
+StatusDefeat=Defeat
+StatusTieGame=Tie Game
+HeaderScore=SCORE
+HeaderPing=PING
+HeaderKills=KILLS
+HeaderDeaths=DEATHS
+HeaderAssists=ASSISTS
+HeaderDowns=DOWNS
+
+[PecanPlayerPanelModel]
+TitleFormat=%Privacy% | %LobbyDisplayName%
+PlayerSlotOpen=Open...
+PlayerSlotSearching=Searching...
+PlayerSlotJoin=Join
+OptionGamerID_360=View Gamer Card
+OptionGamerID_PC=View Steam ID
+OptionGamerID_PS3=View Profile
+OptionGamerIDTooltip_360=View the player's Gamer Card
+OptionGamerIDTooltip_PC=View the player's Steam ID
+OptionGamerIDTooltip_PS3=View the player's Profile
+OptionMute=Mute
+OptionMuteTooltip=Mute the player
+OptionUnmute=Unmute
+OptionUnmuteTooltip=Unmute the player
+OptionProgress=My Progress
+OptionProgressTooltipSearch=PLACEHOLDER - Display the selected players challenge information
+OptionProgressTooltipLobby=PLACEHOLDER - Display the selected players experience, currency, and challenge information
+PlayerSlotFilled=Player Found
+PlayerTooltip_360=View Gamer Card and additional options for the player
+PlayerTooltip_PC=View Steam ID and additional options for the player
+PlayerTooltip_PS3=View Profile and additional options for the player
+
+[PecanUIScreenFETitle]
+StartStringGamepad=Press %ICON% To Begin
+StartStringKeyboard=Press Any Key To Begin
+ProfileLoadFailed=Signing into a valid profile is required to play Aliens: Colonial Marines.
+ProfileLoading=Loading Profile...
+CreatingParty=Creating Party...
+
+[dlgControllerDisconnectedPS3]
+Prompt=A wireless controller has been disconnected.
+
+[GameLegalStrings]
+GameCopyright=Copyright © 2011 SEGA Corp.
+GameDisclaimer=Confidential
+GameCopyrightTG=Copyright © 2012 TimeGate Studios, Inc.
+
+[SeqAct_PlayLegalMovie]
+LegalMovieText="Aliens: Colonial Marines, Alien, Aliens, Alien 3 & © 2013 Twentieth Century Fox Film Corporation. All rights reserved. Twentieth Century Fox, Alien, Aliens, Alien 3 and their associated logos are registered trademarks or trademarks of Twentieth Century Fox film Corporation. Aliens: Colonial Marines game software, excluding Twentieth Century Fox elements. © SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA Corporation. Unreal, the circle-U logo and the Powered by Unreal Technology logo are trademarks or registered trademarks of Epic Games, Inc. in the United States and elsewhere. This software product includes Autodesk® Scaleform® software, © 2013 Autodesk, Inc. Autodesk and Scaleform are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and/or affiliates in the USA and/or other countries. Powered by Wwise © 2006 - 2013 Audiokinetic Inc. All rights reserved. © 2013 Gearbox Software, LLC. Gearbox Software and the Gearbox Software logo are trademarks of Gearbox Software, LLC."
+
+[LoadMapTips]
+LoadMapTip0=The Pulse Rifle excels in suppressive fire with its fast fire rate and large magazine capacity.
+LoadMapTip1=Take care when firing the Assault Rifle to make every burst count.
+LoadMapTip2=Complement the Battle Rifle with an Underbarrel Shotgun to make up for its weakness at close range.
+LoadMapTip3=Wait for the right moment to fire the Pump Shotgun and deliver maximum damage.
+LoadMapTip4=Equipping a secondary weapon or sidearm is faster than reloading when your primary weapon runs out of ammo.
+LoadMapTip5=Explore the world around you for health, armor, and ammo pickups; it might just save your life.
+LoadMapTip6=Aiming down the sights of your weapon increases your effectiveness with the weapon.
+LoadmapTip7=Damage from enemies is first absorbed by armor before affecting your health.
+LoadMapTip8=The Flamethrower is devastating at close range.
+LoadmapTip9=Marine health will regenerate within its current segment when not taking damage.
+LoadMapTip10=Lost marine health segments can be replenished by collecting health packs.
+LoadMapTip11=Sentry Turrets can protect an arc in front of them; make sure to face them towards incoming enemies.
+LoadmapTip12=Lost marine armor can be replenished by collecting armor pick up items.
+LoadMapTip13=The Firebomb is very effective in tight corridors where it can completely block an enemy's path.
+LoadMapTip14=You can cook a Grenade to use up some of the fuse, just don't forget to throw it.
+LoadMapTip15=Versus: Approaching an unaware target is highly effective when playing as a Xenomorph.
+LoadMapTip16=Versus: Be careful when killing a Boiler, even when killed it will explode taking out any marine standing near him.
+LoadMapTip17=Versus: Chain the Soldier's claw attacks together to perform stronger combo attacks.
+LoadMapTip18=Versus: Hit and run with the Spitter's spit attacks to wear down enemies.
+LoadMapTip19=Versus: Surprise your enemies as a Lurker by pouncing from the wall or ceiling.
+LoadMapTip20=Versus: Use your Boiler explosion just before marines round a corner to hit them before they can react.
+LoadMapTip21=Versus: Keep the Crusher facing enemies; its head is highly damage resistant.
+LoadMapTip22=Versus: Use Xenovision to stalk marines through walls and set up effective traps in advance.
+LoadMapTip23=Versus: Use the Xenomorph Dodge ability to quickly get behind cover if you are low on health.
+LoadMapTip24=Remember to use your flashlight in dark areas.
+LoadMapTip25=Alternate fires can be customized to give you additional combat advantages in most situations.
+LoadMapTip26=Use your Motion Tracker often when out of combat to track mission specific objectives.
+LoadMapTip27=Use your Motion Tracker often when you're not sure of your enemy's exact location.
+LoadMapTip28=Versus: Don't just rush for kills in Team Deathmatch; deaths matter too.
+LoadMapTip29=Marines who stick together have the highest chance of survival.
+LoadMapTip30=Versus: In Extermination, Xenomorphs should engage marines before they reach their objectives to keep them safe.
+LoadMapTip31=Versus: Marines should stick together in Escape and act quickly to revive fallen allies.
+LoadMapTip32=Versus: Target lone Marines in Escape and use them as bait for luring their allies into traps.
+LoadmapTip33=You can swap weapons from your inventory into your active loadout through the weapon radial.
+LoadMapTip34=Versus: Xenomorph Spitters are very effective at destroying Marine Sentry Turret defenses.
+LoadMapTip35=Xenomorph fatality attacks can only be performed in the Team Deathmatch and Extermination game modes.
+
+[PecanTeamInfo]
+FactionNames[0]=Marines
+FactionCurrencyNames[0]=Shares
+FactionNames[1]=Xenomorphs
+FactionCurrencyNames[1]=Research
+
+[PecanLoadoutDefinition]
+NPCName=Default AI
+
+[UIScreenFEMapSelect]
+TitleMapSelect=MAP SELECT
+
+[ANY_MAP]
+DisplayName=Any Map
+ShortName=Any
+
+[SULC05_Base]
+DisplayName=Distress
+ShortName=Mission 1
+
+[SULC10_Base]
+DisplayName=Battle for Sulaco
+ShortName=Mission 2
+
+[SULC15_Base]
+DisplayName=Sulaco Falls
+ShortName=Mission 3
+
+[HADC17_Base]
+DisplayName=No Hope in Hadley's
+ShortName=Mission 4
+
+[HADC19_Base]
+DisplayName=The Raven
+ShortName=Mission 5
+
+[DERC21_Base]
+DisplayName=For Bella
+ShortName=Mission 6
+
+[DERC23_Base]
+DisplayName=One Bullet
+ShortName=Mission 7
+
+[DERC26_Base]
+DisplayName=Rampart
+ShortName=Mission 8
+
+[HADC38_Base]
+DisplayName=Hope in Hadley's
+ShortName=Mission 9
+
+[DERC61_Base]
+DisplayName=Derelict Reclaimed
+ShortName=Mission 10
+
+[DERC66_Base]
+DisplayName=Home
+ShortName=Mission 11
+
+[DERA50_Base]
+DisplayName=Origin
+ShortName=Origin
+
+[HADA30_Base]
+DisplayName=The Hive
+ShortName=The Hive
+
+[HADA20_Base]
+DisplayName=Last Hope
+ShortName=Last Hope
+
+[SULA20_Base]
+DisplayName=Adrift
+ShortName=Adrift
+
+[DERA61_Base]
+DisplayName=Excavation
+ShortName=Excavation
+
+[HADS15_Base]
+DisplayName=Condemned
+ShortName=Condemned
+
+[SULS10_Base]
+DisplayName=Overrun
+ShortName=Overrun
+
+[HADE10_Base]
+DisplayName=Flushed Out
+ShortName=Flushed Out
+
+[DERE10_Base]
+DisplayName=Emergency Evac
+ShortName=Emergency Evac
+
+[DEMOE3_Base]
+DisplayName=E3 Demo - PreAlpha
+ShortName=E3 Demo - PreAlpha
+
+[DEMOC10_Base]
+DisplayName=Derelict Facility Vignette
+ShortName=Derelict Facility Vignette
+
+[DEMOC15_Base]
+DisplayName=LV-426 Vignette
+ShortName=LV-426 Vignette
+
+[DLC0_TrainingMarine]
+DisplayName=Firing Range
+ShortName=Firing Range
+
+[TEST_AIXeno]
+DisplayName=TEST Xeno AI Vignettes
+ShortName=TEST Xeno AI Vignettes
+
+[TEST_CharacterZoo]
+DisplayName=TEST Character Zoo
+ShortName=TEST Character Zoo
+
+[TEST_WeaponZoo]
+DisplayName=TEST Weapon Zoo
+ShortName=TEST Weapon Zoo
+
+[TEST_FiringRange]
+DisplayName=TEST Firing Range
+ShortName=TEST Firing Range
+
+[TEST_RedshirtZoo]
+DisplayName=TEST Redshirt
+ShortName=TEST Redshirt
+
+[TEST_Summary]
+DisplayName=TEST Mission Summary
+ShortName=TEST Mission Summary
+
+[TEST_Score]
+DisplayName=TEST Score
+ShortName=TEST Score
+
+[TEST_Difficulty]
+DisplayName=TEST Difficulty
+ShortName=TEST Difficulty
+
+[TEST_AIHuman]
+DisplayName=TEST Human AI Vignettes
+ShortName=TEST Human AI Vignettes
+
+[TEST_XenoCombat01]
+DisplayName=TEST Xeno Combat
+ShortName=TEST Xeno Combat
+
+[TEST_XenoDark]
+DisplayName=TEST Xeno Dark Test
+ShortName=TEST Xeno Dark Test
+
+[TEST_XenoGym]
+DisplayName=TEST Xeno Gym
+ShortName=TEST Xeno Gym
+
+[TEST_TDMSimple]
+DisplayName=TEST Deathmatch
+ShortName=TEST Deathmatch
+
+[PecanConnectionStatusManager]
+DuplicateLoginMessage=Duplicate logins.
+ConnectionDroppedMessage=Connection dropped.
+NoNetworkConnectionMessage=No network connection.
+ServiceUnavailableMessage=Service unavailable.
+UpdateRequiredMessage=Update required.
+ServersTooBusyMessage=Servers too busy.
+NotConnectedMessage=Not connected.
+
+[PecanCSMApplicationState]
+PrimaryProfileChangedMessage_360=An active Gamer Profile has changed.
+PrimaryProfileChangedMessage=An active Profile has changed.
+SecondaryProfileLeftMessage_360=An active Gamer Profile has changed.
+SecondaryProfileLeftMessage=An active Profile has changed.
+EthernetDisconnectMessage=You have been disconnected from the network.
+EthernetDisconnectMessage_360=You have been disconnected from the network.
+EthernetDisconnectMessage_PS3=You have been disconnected from the network.
+ServiceDisconnectMessage=Not connected to Steam.
+ServiceDisconnectMessage_360=Not connected to Xbox LIVE.
+ServiceDisconnectMessage_PS3=You have been signed out of PlayStation®Network. You will be unable to access online features until you sign in.
+ConnectionErrorMessage=Lost connection to host.
+ReturningToTitleMessage=Returning to the main menu.
+LeavingLobbyMessage=Leaving Lobby.
+CancelingAutomatchMessage=Matchmaking has been canceled.
+DLCStorageRemovedMessage=A storage device that contained downloadable content being used by the game was removed.
+DLCContentInstalledMessage=Installed new Downloadable Content.
+DLCContentInstalledMessage_PS3=Installed new Downloadable Content.
+DLCContentInstalledMessage_360=Installed new Downloadable Content.
+DLCContentNeedsInstallMessage=You have Downloadable Content that can be installed by returning to the title screen.
+DLCContentNeedsInstallMessage_PS3=You have Downloadable Content that can be installed by returning to the title screen.
+DLCContentNeedsInstallMessage_360=You have Downloadable Content that can be installed by returning to the title screen.
+ProfileStorageRemovedMessage=The storage device containing the active gamer profile has been removed.  Saving will be disabled until the storage device is reinserted.
+
+[Respawn]
+Ready=Ready to respawn
+TimeLeft=Respawn in...
+
+[PecanDoor]
+OpenLabel=Press %key% to Open
+CloseLabel=Press %key% to Close
+WeldLabel=Press %key% to Weld Shut
+WeldingLabel=Welding...
+CutLabel=Press %key% to Cut Open
+CuttingLabel=Cutting...
+BustLabel=Press %key% to Break Through
+BustingLabel=Busting...
+LockedLabel=Locked
+
+[PecanUIScreenGURadialMenu]
+PrimaryWeapon=Primary
+SecondaryWeapon=Secondary
+SidearmWeapon=Sidearm
+TacticalWeapon=Tactical
+LockedWeapon=Locked
+SelectSlot=Select Slot
+Select=Select
+EquipRelease=Release to Equip
+EquipPress=Equip
+
+[UIHUD]
+IncapText=INCAPACITATED
+
+[GameMappedStrings]
+GMS_A=A
+GMS_Add=+
+GMS_B=B
+GMS_Backslash=Backslash
+GMS_BackSpace=Backspace
+GMS_C=C
+GMS_CapsLock=Caps Lock
+GMS_Comma=,
+GMS_D=D
+GMS_Decimal=.
+GMS_Delete=Delete
+GMS_Divide=/
+GMS_Down=Down
+GMS_E=E
+GMS_Eight=8
+GMS_End=End
+GMS_Enter=Enter
+GMS_Equals==
+GMS_Escape=Escape
+GMS_F=F
+GMS_F1=F1
+GMS_F10=F10
+GMS_F11=F11
+GMS_F12=F12
+GMS_F2=F2
+GMS_F3=F3
+GMS_F4=F4
+GMS_F5=F5
+GMS_F6=F6
+GMS_F7=F7
+GMS_F8=F8
+GMS_F9=F9
+GMS_Five=5
+GMS_Four=4
+GMS_G=G
+GMS_H=H
+GMS_Home=Home
+GMS_I=I
+GMS_Insert=Insert
+GMS_J=J
+GMS_K=K
+GMS_L=L
+GMS_Left=Left
+GMS_LeftAlt=Left-Alt
+GMS_LeftBracket=[
+GMS_LeftControl=Left-Control
+GMS_LeftMouseButton=Mouse-1
+GMS_LeftShift=Left-Shift
+GMS_M=M
+GMS_MiddleMouseButton=Mouse-3
+GMS_Minus=-
+GMS_Mouse=Mouse
+GMS_MouseScrollDown=Mouse-Wheel-Down
+GMS_MouseScrollUp=Mouse-Wheel-Up
+GMS_MouseX=Mouse
+GMS_MouseY=Mouse
+GMS_Multiply=*
+GMS_N=N
+GMS_Nine=9
+GMS_NumLock=NumLock
+GMS_NumPadEight=Num-8
+GMS_NumPadFive=Num-5
+GMS_NumPadFour=Num-4
+GMS_NumPadNine=Num-9
+GMS_NumPadOne=Num-1
+GMS_NumPadSeven=Num-7
+GMS_NumPadSix=Num-6
+GMS_NumPadThree=Num-3
+GMS_NumPadTwo=Num-2
+GMS_NumPadZero=Num-0
+GMS_O=O
+GMS_One=1
+GMS_P=P
+GMS_PageDown=Page Down
+GMS_PageUp=Page Up
+GMS_Pause=Pause
+GMS_Period=.
+GMS_Plus=+
+GMS_Q=Q
+GMS_Quote="""
+GMS_R=R
+GMS_Right=Right
+GMS_RightAlt=Right-Alt
+GMS_RightBracket=]
+GMS_RightControl=Right-Control
+GMS_RightMouseButton=Mouse-2
+GMS_RightShift=Right-Shift
+GMS_S=S
+GMS_ScrollLock=ScrollLock
+GMS_Semicolon=;
+GMS_Seven=7
+GMS_Six=6
+GMS_Slash=/
+GMS_SpaceBar=Spacebar
+GMS_Subtract=-
+GMS_T=T
+GMS_Tab=Tab
+GMS_Three=3
+GMS_ThumbMouseButton=Mouse-4
+GMS_ThumbMouseButton2=Mouse-5
+GMS_Tilde=~
+GMS_Two=2
+GMS_U=U
+GMS_Underscore=_
+GMS_Up=Up
+GMS_V=V
+GMS_W=W
+GMS_X=X
+GMS_XBoxTypeS_A=Joy Button 1
+GMS_XBoxTypeS_B=Joy Button 2
+GMS_XBoxTypeS_Back=Joy Back
+GMS_XBoxTypeS_DPad_Down=Joy DPad Down
+GMS_XBoxTypeS_DPad_Left=Joy DPad Left
+GMS_XBoxTypeS_DPad_Right=Joy DPad Right
+GMS_XBoxTypeS_DPad_Up=Joy DPad Up
+GMS_XBoxTypeS_LeftShoulder=Joy L-Shoulder
+GMS_XBoxTypeS_LeftThumbstick=Joy L-Stick
+GMS_XBoxTypeS_LeftTrigger=Joy L-Trigger
+GMS_XboxTypeS_LeftX=Joy L-Stick
+GMS_XboxTypeS_LeftY=Joy L-Stick
+GMS_XBoxTypeS_RightShoulder=Joy R-Shoulder
+GMS_XBoxTypeS_RightThumbstick=Joy R-Stick
+GMS_XBoxTypeS_RightTrigger=Joy R-Trigger
+GMS_XboxTypeS_RightX=Joy R-Stick
+GMS_XboxTypeS_RightY=Joy R-Stick
+GMS_XBoxTypeS_Start=Joy Start
+GMS_XBoxTypeS_X=Joy Button 3
+GMS_XBoxTypeS_Y=Joy Button 4
+GMS_Y=Y
+GMS_Z=Z
+GMS_Zero=0
+
+[PecanUIScreenFEGearboxAccount]
+DateFormat=m/d/y
+TimeFormat=12
+
+[GearboxAccount]
+BackButtonLabel=Back
+PlayerNameFormat=Welcome, %playername%
+SignedInStatus=<font color="#FFCC00">Signed in to Gearbox Software Shift!</font>
+NotSignedInStatus=<font color="#999999">Not signed in to Gearbox Software Shift</font>
+WelcomeScreenHeader=Welcome!
+WelcomeScreenMessage=Become a Gearbox Software Shift member to redeem Gearbox Software Shift Codes and unlock rewards to enhance your Aliens: Colonial Marines gaming experience.\n\nTo unlock this exclusive content, sign up to Gearbox Software Shift now, or sign in if you are already a member.
+WelcomeBackHeader=Welcome Back!
+SignInButtonLabel=Sign In
+SignUpButtonLabel=Sign Up
+SignInScreenHeader=Sign In
+SignInScreenMessage=Enter your Gearbox Software Shift credentials to sign in and link your account. This will give you access to features and rewards.
+EmailCaption=E-mail
+PasswordCaption=Password
+ConfirmPasswordCaption=Confirm Password
+AdditionalBenefitsCaption=Additional Benefits
+DefaultEmail=
+DefaultPassword=
+DefaultConfirmPassword=
+ResetPasswordButtonLabel=Reset Password
+AdditionalBenefitsMessage=Sign in at our website with your new account credentials and gain access to additional features, info and rewards only available to Gearbox Software Shift members.
+InputEmailTitle=E-mail Address
+InputEmailDescription=Enter the e-mail address associated with your Gearbox Software Shift account.
+InputPasswordTitle=Password
+InputPasswordDescription=Enter the password associated with your Gearbox Software Shift account.
+ConfirmPasswordTitle=Confirm Password
+ConfirmPasswordDescription=Please re-enter your password.
+ResetPasswordScreenHeader=Reset Password
+ResetPasswordScreenMessage=To reset your password, enter the full e-mail address that you use to sign into your Gearbox Software Shift account.
+EULAScreenDefaultHeader=Online Policy
+EULAScreenDefaultMessage=Your use of the Gearbox Software Shift service is subject to the Terms of Service located at shift.gearboxsoftware.com/eula and the Privacy Policy located at www.gearboxsoftware.com/privacy. Both of these documents are available for your review by selecting the options below.\n\nBy registering for this service, you consent to the data transfer provisions of the Privacy Policy.
+EULAScreenPrivacyPolicyHeader=Privacy Policy
+EULAScreenTermsOfServiceHeader=Terms of Service
+AcceptButtonLabel=Accept
+OnlinePolicyButtonLabel=Online Policy
+PrivacyPolicyButtonLabel=Privacy Policy
+TermsOfServiceButtonLabel=Terms of Service
+SignUpScreenHeader=Sign Up
+SignUpScreenMessage=To become a Gearbox Software Shift member, enter a valid e-mail address and password (8+ characters).
+OffersCaption=My Rewards
+OffersCaption_RedeemCode=Shift Code
+AgeGateScreenHeader=Date of Birth
+AgeGateScreenMessage=Please enter your birth date to proceed with the Sign Up process for Gearbox Software Shift.
+MonthCaption=Month
+InputAgeMonthDescription=Enter the number for the month you were born.
+DayCaption=Day
+InputAgeDayDescription=Enter the number for the day you were born.
+YearCaption=Year
+InputAgeYearDescription=Enter the year you were born.
+ConfirmAgeButtonLabel=Confirm Age
+RedeemCodeCaption=Please enter your code:
+RedeemCodeButtonLabel=Shift Code
+RedeemCodeSubmitButtonLabel=Submit
+InputCodeSegmentTitle=Input Code
+InputCodeSegmentDescription=Input the next 5 characters of your code.
+PrivacyPolicyCheckboxCaption=Privacy Policy Viewed
+TermsOfServiceCheckboxCaption=Terms of Service Viewed
+StatusNew=NEW!
+
+[GearboxAccountDialogMessages]
+dlgGearboxAccountNoLinkConnection=To redeem Gearbox Software Shift Codes, you must have a valid network connection.
+dlgGearboxAccountNotLoggedIn=To redeem Gearbox Software Shift Codes, you must have a Xbox LIVE Gold Membership and be signed in to Xbox LIVE.
+dlgGearboxAccountNotConnected360=To redeem Gearbox Software Shift Codes, you must connect to Xbox LIVE.
+dlgGearboxAccountNotConnectedPC=To redeem Gearbox Software Shift Codes, you must connect to Steam.
+dlgGearboxAccountNotConnectedPS3=To redeem Gearbox Software Shift Codes, you must connect to PlayStation®Network.
+dlgGearboxAccountAccessRestricted360=To redeem Gearbox Software Shift Codes, you must be connected to Xbox LIVE and have online privileges.
+dlgGearboxAccountAccessRestrictedPS3=To redeem Gearbox Software Shift Codes, you must be connected to PlayStation®Network and have online privileges.
+dlgGearboxAccountInvalidEmail=Please enter a valid e-mail address.
+dlgGearboxAccountInvalidPassword=Please enter a valid password.  A valid password contains a minimum of 8 characters.
+dlgGearboxAccountPlatformFailure=Unable to authenticate at this time. Please check your network connection and try again later.
+dlgGearboxAccountTicketNotValid=Unable to authenticate at this time. Please check your network connection and try again later.
+dlgGearboxAccountGenericSignInFailure=Unable to sign in to Gearbox Software Shift.
+dlgGearboxAccountLoginFailSignInFailure=Your Email and Password combination do not match a Gearbox Software Shift account.
+dlgGearboxAccountPlatformTakenByOtherSignInFailure=This profile is already associated with a different Gearbox Software Shift account.
+dlgGearboxAccountPlatformTakenByOtherSignInFailure_360=This gamer profile is already associated with a different Gearbox Software Shift account.
+dlgGearboxAccountPlatformTakenBySelfSignInFailure=You already have a profile associated with this Gearbox Software Shift account and you cannot be associated with more than one.
+dlgGearboxAccountPlatformTakenBySelfSignInFailure_360=You already have a gamer profile associated with this Gearbox Software Shift account and you cannot be associated with more than one.
+dlgGearboxAccountNetworkSignInFailure=Unable to communicate with Gearbox Software Shift. Please try again later.
+dlgGearboxAccountTimeoutSignInFailure=Your Gearbox Software Shift session has timed out. You will be automatically reconnected. Please try again later.
+dlgGearboxAccountCommunicationFailure=Unable to communicate with Gearbox Software Shift. Please try again later.
+dlgGearboxAccountResetPasswordSuccess=Your password reset request has been received.  Please check your e-mail for further instructions on choosing a new password.
+dlgGearboxAccountGenericResetPasswordFailure=There was an error resetting your password.
+dlgGearboxAccountTimeoutResetPasswordFailure=Your Gearbox Software Shift session has timed out. You will be automatically reconnected. Please try again later.
+dlgGearboxAccountCodeRedeemSuccess=Congratulations! You have new Gearbox Software Shift rewards!
+dlgGearboxAccountEntitlementNamesDeveloperPerk=Developer Perk
+dlgGearboxAccountEntitlementNamesDeveloperPerkPlural=%NUMENTITLEMENTS% Developer Perks
+dlgGearboxAccountCodeRedeemFailure=Sorry, but the code you have entered cannot be redeemed.
+dlgGearboxAccountCodeRedeemTakenFailure=Sorry, but the code you have entered has already been redeemed.
+dlgGearboxAccountCodeRedeemExpiredFailure=Sorry, but the code you have entered is expired and can no longer be redeemed.
+dlgGearboxAccountCodeRedeemNotValidFailure=Sorry, but the code you have entered is not valid.  Please ensure all 25 characters of the code are entered correctly.
+dlgGearboxAccountCodeRedeemTimeoutFailure=Your Gearbox Software Shift session has timed out. You will be automatically reconnected. Please try again later.
+dlgGearboxAccountCodeRedeemDuplicateFailure=You have already redeemed this one-time reward. Feel free to share this code with a friend!
+dlgGearboxAccountCodeRedeemNetworkFailure=The Gearbox Software Shift service is not available. Please try again later.
+dlgGearboxAccountGenericSignUpFailure=Unable to create Gearbox Software Shift account.
+dlgGearboxAccountEmailTakenSignUpFailure=This e-mail already has a Gearbox Software Shift account.
+dlgGearboxAccountPlatformTakenSignUpFailure=You are already associated with a Gearbox Software Shift account.
+dlgGearboxAccountPasswordNotSetSignUpFailure=You must specify a password.
+dlgGearboxAccountPasswordTooShortSignUpFailure=The password you have specified is too short.  A valid password contains a minimum of 8 characters.
+dlgGearboxAccountPasswordTooLongSignUpFailure=The password you have specified is too long.
+dlgGearboxAccountPasswordInvalidSignUpFailure=The password you have specified contains invalid characters.
+dlgGearboxAccountEmailNotSetSignUpFailure=You must specify an email.
+dlgGearboxAccountEmailNotValidSignUpFailure=The email you have specified is not valid.
+dlgGearboxAccountTimeoutSignUpFailure=Your Gearbox Software Shift session has timed out. You will be automatically reconnected. Please try again later.
+dlgGearboxAccountSignUpSuccess=Congratulations!  You've successfully signed up for a Gearbox Software Shift account!\nA confirmation e-mail has been sent to %EMAIL%.
+dlgGearboxAccountPasswordsMustMatch=Both passwords must match.  Please re-enter and confirm your password.
+dlgGearboxAccountAgeGateFailureInvalidDate=The date entered is invalid.
+dlgGearboxAccountAgeGateFailureUnknownAge=Unable to verify your age at this time. Please check your network connection and try again later.
+dlgGearboxAccountAgeGateFailureBelowMinimumAge=You do not meet the age requirements to register for a Gearbox Software Shift account.
+dlgGearboxAccountEULAMustReadPolicies=You must view the Privacy Policy and Terms of Service before you can register for a Gearbox Software Shift account.
+dlgGearboxAccountCodePasteInvalid=Unable to paste code.  Please ensure you copied the code correctly.
+
+[GearboxAccountBlockingDialogMessages]
+ConfirmingAge=Confirming age...
+SignInProgressMessage=Signing in to Gearbox Software Shift...
+SignUpProgressMessage=Signing up for Gearbox Software Shift...
+Authentication=Authenticating with Gearbox Software Shift...
+RedeemCodeProgressMessage=Submitting Code to Gearbox Software Shift...
+ResetPasswordProgressMessage=Requesting password reset from Gearbox Software Shift...
+
+[MOTD]
+SeasonPassMessageOfTheDay=(Header="Season Pass Installed!",Body="Thanks for purchasing the Aliens: Colonial Marines Season Pass! Look for great downloadable content coming soon!",ActionEvent="",ImagePath="",DisplayTime=15)
+SeasonPassMessageOfTheDay_PS3=(Header="Season Pass Installed!",Body="Thanks for purchasing the Aliens: Colonial Marines Season Pass! Look for great downloadable content coming soon!",ActionEvent="",ImagePath="",DisplayTime=15)
+SeasonPassMessageOfTheDay_360=(Header="Season Pass Installed!",Body="Thanks for purchasing the Aliens: Colonial Marines Season Pass! Look for great downloadable content coming soon!",ActionEvent="",ImagePath="",DisplayTime=15)
+ContentToInstallMessageOfTheDay=(Header="Free Downloadable Content!",Body="New Season Pass downloadable content is available now! Select 'Downloadable Content' for details!",ActionEvent="",ImagePath="",DisplayTime=15)
+ContentToInstallMessageOfTheDay_PS3=(Header="Free Downloadable Content!",Body="New Season Pass downloadable content is available now! Select 'Downloadable Content' for details!",ActionEvent="",ImagePath="",DisplayTime=15)
+ContentToInstallMessageOfTheDay_360=(Header="Free Downloadable Content!",Body="New Season Pass downloadable content is available now! Select 'Downloadable Content' for details!",ActionEvent="",ImagePath="",DisplayTime=15)
+UninstalledDlcMessageOfTheDay=(Header="Uninstalled Downloadable Content!",Body="Please return to the title screen to install your downloadable content.",ActionEvent="",ImagePath="",DisplayTime=15)
+UninstalledDlcMessageOfTheDay_PS3=(Header="Uninstalled Downloadable Content!",Body="Please return to the title screen to install your downloadable content.",ActionEvent="",ImagePath="",DisplayTime=15)
+UninstalledDlcMessageOfTheDay_360=(Header="Uninstalled Downloadable Content!",Body="Please return to the title screen to install your downloadable content.",ActionEvent="",ImagePath="",DisplayTime=15)
+AccountMessageOfTheDay=(Header="Gearbox Software Shift",Body="You have new Gearbox Software Shift rewards! Select 'Shift Code' in the Extras menu for details!",ActionEvent="",ImagePath="",DisplayTime=15)
+EmergencyAccountMessageOfTheDay=(Header="Gearbox Software Shift",Body="",ActionEvent="",ImagePath="",DisplayTime=15)
+
+[dlgInvalidLoadout]
+Prompt=One or more loadouts have been reset to default.  This is most likely due to uninstalled downloadable content.
+Prompt_PS3=One or more loadouts have been reset to default.  This is most likely due to uninstalled downloadable content.
+Prompt_360=One or more loadouts have been reset to default.  This is most likely due to uninstalled downloadable content.
+
+[dlgNewDlcInstalled]
+Prompt=New downloadable content installed:
+Prompt_PS3=New downloadable content installed:
+Prompt_360=New downloadable content installed:
+
+[PecanUIScreenFEMarketplace]
+CostFormatPS3=%1 [points]
+CostFormatPS3Free=Free
+CostFormat360=%1 Microsoft® Points
+CostFormat360Free=Free
+DefaultHeader=/DOWNLOADABLE CONTENT
+DefaultHeader_PS3=/DOWNLOADABLE CONTENT
+DefaultHeader_360=/DOWNLOADABLE CONTENT
+DefaultFeature=/FEATURED
+DefaultFeatureDescription=SEASON PASS AVAILABLE NOW!
+FilterAll=_All Downloadable Content
+FilterAll_PS3=_All Downloadable Content
+FilterAll_360=_All Downloadable Content
+FilterSeasonPass=_Season Pass Downloadable Content
+FilterSeasonPass_PS3=_Season Pass Downloadable Content
+FilterSeasonPass_360=_Season Pass Downloadable Content
+FilterAddOn=_Add-On Downloadable Content
+FilterAddOn_PS3=_Add-On Downloadable Content
+FilterAddOn_360=_Add-On Downloadable Content
+FilterMisc=_Miscellaneous Downloadable Content
+FilterMisc_PS3=_Miscellaneous Downloadable Content
+FilterMisc_360=_Miscellaneous Downloadable Content
+MessageEnumerating=Enumerating Downloadable Content offerings...
+MessageEnumerating_PS3=Enumerating Downloadable Content offerings...
+MessageEnumerating_360=Enumerating Downloadable Content offerings...
+Purchased=Purchased
+StatusPurchased=<font color="#FFA200">Not Downloaded</font>
+StatusDownloaded=<font color="#D45E18">Downloaded</font>
+StatusInstalled=<font color="#FFFFFF">Installed</font>
+StatusNew=New!
+TipPurchase=Buy Now!
+TipDownload=Download
+TipDetails=Details
+TipDetailsTooltip=[PLACEHOLDER] View more details about this item
+TipRedeemCode=Redeem Code
+TipSort=Filter
+TipSortTooltip=[PLACEHOLDER] Change current filter mode
+TipPSNStore=PlayStation®Store
+
+[MarketplaceDialogMessages]
+dlgDLCEnumerationFailed=Unable to enumerate the Downloadable Content offerings. Please try again later.
+dlgDLCEnumerationFailed_PS3=Unable to enumerate the Downloadable Content offerings. Please try again later.
+dlgDLCEnumerationFailed_360=Unable to enumerate the Downloadable Content offerings. Please try again later.
+dlgWarnPlaystationStoreExit=Accessing downloadable content through PlayStation®Store will remove you from the game.  Are you sure?
+dlgDLCNoLinkConnection=You cannot view downloadable content without a valid network connection.
+dlgDLCNotLoggedInForLIVE=You must be signed in to Xbox LIVE to view downloadable content.
+dlgDLCNotLoggedInForPSN=You must connect to PlayStation®Network to view downloadable content.
+dlgNoPSNPrivilege=Online service is disabled due to parental control restrictions.
+dlgNoPurchasePrivilege=Access to PlayStation®Store is restricted because of a mismatch between your Sony Entertainment Network account language and the system language. Please change your local system language settings to proceed.
+dlgDLCNotLoggedInForSteam=You must connect to the Steam servers to view downloadable content.
+dlgCheckingDownloadableContent=Checking for Downloadable Content...
+dlgCheckingDownloadableContent_PS3=Checking for Downloadable Content...
+dlgCheckingDownloadableContent_360=Checking for Downloadable Content...
+dlgDownloadableContentUnavailable=There is no downloadable content available at this time. Please try again later.
+dlgDownloadableContentUnavailable_PS3=There is no downloadable content available at this time. Please try again later.
+dlgDownloadableContentUnavailable_360=There is no downloadable content available at this time. Please try again later.
+
+[MarketplaceSellTextPC]
+0x00035938=
+0x00035934=
+0x00035935=
+0x00035936=
+0x00035937=
+0x00035939=
+0x00036E48=
+0x00035930=
+0x00035931=
+0x00035932=
+0x00035933=
+
+[UIMessages]
+LeavePartyToHostMessage=Only the party leader (%PartyLeader%) can join matches.
+KickPartyClientsToHostMessage=Your party can't join this type of match with you.
+PartyTooLargeMessage=Your party is too large to play this game type (max %MaxPlayers%).
+LeavePartyHostMessage=Leaving will disband the party. Continue?
+LeavePartyClientMessage=Leaving will remove you from the party. Continue?
+BringPartyMessage=Do you want to bring your party with you? If you don't, the party will be disbanded.
+NoOnlineSSMessage_360=Splitscreen multiplayer sessions are not supported over Xbox LIVE and System Link.
+NoOnlineSSMessage=You may not participate in multiplayer with a splitscreen player present.
+NoGameSSMessage=You may not participate in a %GameMode% match with a splitscreen player present.
+LeaveGameLobbyHostMessage=Everyone will be booted out of the lobby if you leave. Continue?
+LeaveGameLobbyClientMessage=Are you sure you want to leave the lobby?
+LeaveGameHostMessage=If you leave now you will forfeit your match XP bonus, and everyone will be booted. Continue?
+LeaveGameClientMessage=If you leave now you will forfeit your match XP bonus. Continue?
+LobbyMissingDLCMapMessage=Invalid map selection. Not every %LobbyDisplayName% member has this map.
+LobbyMissingDLCGameMessage=Invalid game type selection. Not every %LobbyDisplayName% member has this game type.
+LeaveGameHostMessageCampaign=If you leave now you will lose all unsaved progress, and everyone will be booted. Continue?
+LeaveGameClientMessageCampaign=If you leave now you will lose all unsaved progress. Continue?
+
+[UIGeneral]
+MarineProgress=MARINE PROGRESS
+XenoProgress=XENOMORPH PROGRESS
+
+[MessageBoxHeaders]
+ChallengeInfo=CHALLENGE INFO
+ChallengeComplete=CHALLENGE COMPLETE
+Attention=ATTENTION
+Warning=WARNING
+Caution=CAUTION
+Tutorial=TUTORIAL
+
+[PecanUIScreenGUFiringRange]
+TitleMain=FIRING RANGE MODES
+Accuracy=_ACCURACY
+AccuracyTooltip=Shoot The Targets (Black Ring or Better)
+Overwhelm=_OVERWHELM
+OverwhelmTooltip=Shoot 28 Targets for points. Hitting 2 targets on the same rack multiplies points.
+Speed=_SPEED
+SpeedTooltip=Destroy targets before they reach you. Hitting 2 targets on the same rack does more damage.
+Gallery=_GALLERY
+GalleryTooltip=Shoot Enemies, Avoid Civilians for points. Accuracy and Target Distance Point Factor.
+
+[PecanUIScreenGUFiringRangePostRound]
+RoundOverHeader=ROUND OVER
+GameModeTemplate=MODE: %GAMEMODE%
+GameModeAccuracy=ACCURACY
+GameModeOverwhelm=OVERWHELM
+GameModeSpeed=SPEED
+GameModeGallery=GALLERY
+RowHeader_NumBullseyes=_BULLSEYES
+RowHeader_InnerCircleHits=_INNER CIRCLE HITS
+RowHeader_OuterCircleHits=_OUTER CIRCLE HITS
+RowHeader_TotalScore=_TOTAL SCORE
+RowHeader_TargetsDestroyed=_TARGETS DESTROYED
+RowHeader_TargetsEscaped=_TARGETS ESCAPED
+RowHeader_Wave1Score=_WAVE 1 SCORE
+RowHeader_Wave2Score=_WAVE 2 SCORE
+RowHeader_Wave3Score=_WAVE 3 SCORE
+
+[PecanHUD]
+MeleePromptText=Press %key%
+
+[PecanCEAct_StruggleQTE]
+StrugglePromptText=Press %key%
+
+[UnlockStoreItemDefinition]
+SlotTooltip=Customize your loadout
+SlotLockedTooltip=Rank up or complete Challenges to unlock
+SlotPurchaseTooltip=Purchase item
+
+[Facebook]
+Post=Post
+Ok=Ok
+Cancel=Cancel
+EditMessage=Edit Message
+PostToFacebook=POST TO FACEBOOK
+Message=MESSAGE
+UserComments=USER COMMENTS
+CouldNotAuth=Could not authenticate with Facebook.
+Processing=Processing...
+LoggingIn=Logging in to Facebook...
+VisitGearbox=Visit Gearbox
+VisitSega=Visit Sega
+VisitGearboxURL=http://www.gearboxsoftware.com
+VisitSegaURL=http://www.sega.com
+Share=Share
+ShareOnFacebook=Share on Facebook
+AddMessage=Add a Message
+EnableFeatures=Enable Facebook Features
+DisableFeatures=Disable Facebook Features
+Login=Log In to Facebook
+LogOut=Log Out of Facebook
+NotEnabled=Facebook features are not currently enabled.
+MustBeOnline=You must be online to post to Facebook.
+CouldNotConnect=Could not connect to Facebook.
+ProblemEncountered=A problem was encountered while posting to Facebook.
+PostSuccessful=Post Successful!
+
+[PecanUIScreenFEChallenges]
+ChallengesTitle=CHALLENGES
+ActiveTip=Attempt Active Challenges while playing to earn extra rewards.\nNew challenges are awarded upon completion of each Active Challenge.
+ActiveChallenges=ACTIVE CHALLENGES
+PostNameString=Aliens: Colonial Marines
+CaptionString=Challenge Complete!
+GlobalChallengeStrings[0]=Semper fi! %NAME% just completed the Global Challenge %CHALLENGE%.  Don’t let ‘em hog all the glory, though. Aliens: Colonial Marines.
+GlobalChallengeStrings[1]=%NAME% just annihilated the Global Challenge %CHALLENGE%.  They’ve got what it takes – do you? Aliens: Colonial Marines.
+GlobalChallengeStrings[2]=The Xenos didn’t stand a chance against %NAME%, who just completed the Global Challenge %CHALLENGE%.  Will you be as lucky? Aliens: Colonial Marines.
+GlobalChallengeStrings[3]=Another glorious day in the Corps! %NAME% just destroyed the Global Challenge %CHALLENGE% without breaking a sweat. Aliens: Colonial Marines.
+GlobalChallengeStrings[4]=%NAME% just completed the Global Challenge %CHALLENGE%. Stay frosty, and maybe you’ll kick as much ass as they did. Aliens: Colonial Marines.
+CampaignChallengeStrings[0]=%NAME% just slayed the Campaign Challenge %CHALLENGE% in Aliens: Colonial Marines. Do or die!
+CampaignChallengeStrings[1]=Every meal a banquet, every paycheck a fortune! %NAME% just completed the Campaign Challenge %CHALLENGE%.  Long live the Corps! Aliens: Colonial Marines.
+CampaignChallengeStrings[2]=%NAME% completed %CHALLENGE% and showed no mercy to the Xenos – they’re animals, man!  Aliens: Colonial Marines.
+CampaignChallengeStrings[3]=Maybe you haven’t been keeping up on current events, but %NAME% just completed the Campaign Challenge %CHALLENGE%, pal!  Join the fight and squash some bugs. Aliens: Colonial Marines.
+CampaignChallengeStrings[4]=By smashing the Campaign Challenge %CHALLENGE%, %NAME% just proved that nothing is more dangerous than a Marine with a pulse rifle. Enlist now in Aliens: Colonial Marines.
+VersusChallengeStrings[0]=%NAME% just waxed the Versus challenge %CHALLENGE% . You gonna let ‘em get away with that? Aliens: Colonial Marines.
+VersusChallengeStrings[1]=%NAME% outlasted his enemies long enough to snag the Versus challenge %CHALLENGE%. Think you got what it takes? Aliens: Colonial Marines.
+VersusChallengeStrings[2]=Xenos and Marines alike run in fear of %NAME%, who just completed the Versus challenge %CHALLENGE%. Aliens: Colonial Marines.
+VersusChallengeStrings[3]=You’d better team up with %NAME% or get the hell outta their way, ‘cause they just completed the Versus challenge %CHALLENGE% in Aliens: Colonial Marines.
+VersusChallengeStrings[4]=%NAME% just proved that Xenos ain’t the only thing you’ve gotta watch out for. They completed the Versus challenge %CHALLENGE% and sent their enemies packing in Aliens: Colonial Marines.
+
